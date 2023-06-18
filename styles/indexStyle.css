@@ -1,0 +1,19 @@
+.overallbody{
+    background-color: royalblue;
+}
+
+.contentWithSummary{
+    display:flex;
+    justify-content: space-between;
+}
+
+.contentOnly{
+    padding-left: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.summaryOnly{
+    padding-right: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
