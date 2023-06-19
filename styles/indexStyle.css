@@ -3,14 +3,17 @@
 }
 
 .contentWithSummary{
-    display:flex;
+    display:grid;
+    grid-template-columns: 70% 30%;
     justify-content: space-between;
 }
 
 .contentOnly{
     padding-left: 5%;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-right: 1px solid black;
     font-size: larger;
+    z-index:100;
 }
 
 .summaryOnly{
@@ -18,5 +21,6 @@
     padding-right: 2%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: fixed;
-
+    height: 100vh;
+    width: min-content;
 }
