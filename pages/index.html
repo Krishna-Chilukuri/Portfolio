@@ -6,87 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kepodi Portfolio</title>
     <link rel="icon" href="Gojo-31.png">
-    <link rel="stylesheet" href="file:///D:/Coding/KPs%20Portfolio/Code/styles/headerStyle.css">
-    <link rel="stylesheet" href="file://D:/Coding/KPs%20Portfolio/Code/styles/indexStyle.css">
-    <header class="title">Krishna Prudhvi Chilukuri</header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 90);
+            color:white;
+            font-family:'Manrope', sans-serif;
+        }
+
+        nav{
+            background-color: rgb(6, 6, 109);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height:75px;
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin:0 25px;
+        }
+        .left{
+            font-size: 2rem;
+            justify-content: left;
+        }
+
+        .firstSec{
+            display: flex;
+            justify-content: space-around;
+            margin: 5rem 0;
+        }
+
+        .firstSec > div{
+            width:30%;
+        }
+        .leftSec{
+            background-color: red;
+            font-size: 2.5rem;
+        }
+        .rightSec img{
+            width: 80%;
+            margin: 2.5rem;
+        }
+    </style>
 </head>
-<body class="overallbody">
-<!--    <div class="title">
-        <h1 class="title">Krishna Prudhvi Chilukuri</h1>
-    </div> -->
-    <br><br><br>
-    <div class="contentWithSummary">
-        <div class="contentOnly">
-            <div class="exp" id="exp">
-                <h2>Work Experience</h2>
-                Java Developer (ASE)<br>
-                Tata Consultancy Services<br>
-                Feb-2021 to May-2022<br>
+<body>
+    <header>
+        <nav>
+            <div class="left">KP's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Connect</li>
+                </ul>
             </div>
-            <h2>Education</h2>
-            <div class="university">
-                George Mason University<br>
-                MS CS<br>
-                Jan-2023 to May-2024<br>
-                CGPA : 4/4 (upto Semester 1)
-            </div><br>
-            <div class="college">
-                R.V.R & J.C.C.E<br>
-                BTech CSE<br>
-                Jun-2016 to Jun-2020<br>
-                CGPA : 8.9/10
-            </div><br>
-            <div class="interm">
-                Narayana Junior College<br>
-                Intermediate MPC<br>
-                APR-2014 to MAR-2014<br>
-                Score : 984/1000<br>
-            </div><br>
-            <div class="school">
-                Narayana Concept School<br>
-                High School<br>
-                MAR-2013 to MAR-2014<br>
-                CGPA : 9.8/10<br>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSec">
+            <div class="leftSec">
+                Hi, My name is Krishna Prudhvi
+                <div>and I am a Software Engineer</div> 
             </div>
-            <h2>Projects</h2>
-            Online Recruitment System<br>
-            <h2>Skills</h2>
-            <div class="techSkills">
-                python
-                <br>Java
-                <br>html<br>
-                css<br>
-                javascript<br>
-                <!-- table of skills and self rating -->
-            </div><br>
-            <div class="certifications">
-                intro to c<br>
-                prog in c++<br>
-                java<br>
-                python<br>
-                haiuhfnjkshfjkwnvkmerghv<br>
-                haiuhfnjkshfjkwnvkmerghv<br>
-                haiuhfnjkshfjkwnvkmerghv<br>
-                haiuhfnjkshfjkwnvkmerghv<br>
-                haiuhfnjkshfjkwnvkmerghv<br>
-                haiuhfnjkshfjkwnvkmerghv<br>
-                haiuhfnjkshfjkwnvkmerghv<br>
-                haiuhfnjkshfjkwnvkmerghv<br>
-
-                <!-- List of certifications -->
+            <div class="rightSec">
+                <img src="D:\Coding\KPs Portfolio\Code\resources\rightSectionPic.png">
             </div>
-        </div>
-        <div class="summaryOnly">
-            <br>This is the summary<br>
-            haiuhfnjkshfjkwnvkmerghv<br>
-            haiuhfnjkshfjkwnvkmerghv<br>
-
-            haiuhfnjkshfjkwnvkmerghv<br>
-            haiuhfnjkshfjkwnvkmerghv<br>
-            haiuhfnjkshfjkwnvkmerghv<br>
-
-
-        </div>
-    </div>
+        </section>
+    </main>
 </body>
 </html>
