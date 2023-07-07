@@ -1,0 +1,80 @@
+.fifthSection{
+    max-width: 85vw;
+    margin: auto;
+    height: 70vh;
+}
+
+.fifthSection h1 {
+    font-size: 1.7rem;
+    padding:10px;
+}
+
+.skills-line{
+    background: white;
+    width: 75vw;
+    height: 3px;
+    margin: 50px 0;
+}
+
+.skillGridContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 34px;
+}
+
+.skillItem{
+    padding: 5px ;
+}
+
+.skillBar{
+    border-radius: 5px;
+    width:75%;
+    background-color: #c2c0ee;
+    margin-right:9vw; 
+    font-size: 18px;
+}
+
+.skills{
+    border-radius: 5px;
+    text-align:right;
+    color:white;
+    background-color: rgb(42, 42, 131);
+}
+
+
+.sql{
+    width:90%;
+}
+
+.cLang{
+    width: 90%;
+    /* background-color: blue; */
+}
+
+.cpp{
+    width: 70%;
+    /* background-color: blue; */
+}
+
+.java{
+    width: 80%;
+    /* background-color: blue; */
+}
+
+.python{
+    width: 90%;
+    /* background-color: blue; */
+}
+
+.html{
+    width:80%;
+}
+
+.css{
+    width:70%;
+}
+
+.js{
+    width:70%;
+}
+

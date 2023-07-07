@@ -1,0 +1,23 @@
+footer{
+    background-color: rgb(20, 20, 69);
+    height:150px;
+}
+
+.fourthSection{
+    display:flex;
+    justify-content: space-around;
+    margin: 23px 122px;
+    padding:30px 0;
+}
+
+.fourthSection ul{
+    list-style-type: none;
+}
+
+.credits a{
+    color:white;
+}
+
+.contactDetails{
+    font-size: 17px;
+}

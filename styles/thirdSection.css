@@ -1,0 +1,44 @@
+.thirdSec {
+    max-width: 85vw;
+    margin: auto;
+    height: 54vh;
+}
+
+.thirdSec h1 {
+    font-size: 1.7rem;
+}
+
+.education-timeline {
+    background: white;
+    width: 75vw;
+    height: 3px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.education-checkpoint {
+    height: 90px;
+    width: 2px;
+    background-color: white;
+    margin: 0 150px;
+}
+
+.education-text {
+    position: relative;
+    top: 95px;
+    width: 218px;
+    font-size: 20px;
+}
+
+.course-specifics {
+    position: relative;
+    top: 99px;
+    width: 218px;
+    font-size: 14px;
+}
+
+#cgpas {
+    font-size: 18px;
+    color: rgb(165, 97, 221);
+}

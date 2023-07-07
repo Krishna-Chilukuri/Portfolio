@@ -1,0 +1,32 @@
+.secondSec{
+    max-width: 85vw;
+    margin:auto;
+    height:50vh;
+}
+.secondSec h1{
+    font-size: 1.7rem;
+}
+.work-timeline{
+    background: white;
+    width: 75vw;
+    height: 3px;
+    margin: 56px 0;
+}
+.work-text{
+    position: relative;
+    top: 18px;
+    width:75vw;
+    margin:5px 3rem;
+    font-size: 20px;
+    /* background-color: red; */
+}
+.work-specifics{
+    position:relative;
+    margin:5px 3rem;
+    font-size: 16px;
+    /*background-color: red;*/
+}
+#work-desc{
+    position: relative;
+    margin: 5px 6rem;
+}

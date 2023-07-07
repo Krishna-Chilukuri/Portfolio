@@ -1,74 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kepodi Portfolio</title>
-    <link rel="icon" href="Gojo-31.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        body{
-            background-color: rgb(0, 0, 90);
-            color:white;
-            font-family:'Manrope', sans-serif;
-        }
-
-        nav{
-            background-color: rgb(6, 6, 109);
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height:75px;
-        }
-        nav ul{
-            display:flex;
-            justify-content: center;
-        }
-        nav ul li{
-            list-style: none;
-            margin:0 25px;
-        }
-        .left{
-            font-size: 2rem;
-            justify-content: left;
-        }
-
-        .firstSec{
-            display: flex;
-            justify-content: space-around;
-            margin: 5rem 0;
-        }
-
-        .firstSec > div{
-            width:30%;
-        }
-        .leftSec{
-            background-color: red;
-            font-size: 2.5rem;
-        }
-        .rightSec img{
-            width: 80%;
-            margin: 2.5rem;
-        }
-    </style>
+    <link rel="stylesheet" href="D:\Coding\KPs Portfolio\Code\styles\headerStyle.css">
+    <link rel="stylesheet" href="D:\Coding\KPs Portfolio\Code\styles\bodyCommon.css">
+    <link rel="stylesheet" href="D:\Coding\KPs Portfolio\Code\styles\firstSection.css">
+    <link rel="stylesheet" href="D:\Coding\KPs Portfolio\Code\styles\secondSection.css">
+    <link rel="stylesheet" href="D:\Coding\KPs Portfolio\Code\styles\thirdSection.css">
+    <link rel="stylesheet" href="D:\Coding\KPs Portfolio\Code\styles\footerStyles.css">
+    <link rel="stylesheet" href="D:\Coding\KPs Portfolio\Code\styles\fifthSection.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <div class="left">KP's Portfolio</div>
+            <div class="left">Krishna Prudhvi's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li>Connect</li>
+                    <li><a href="https://www.linkedin.com/in/krishna-prudhvi-chilukuri/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li><a href="https://github.com/Krishna-Namikaze" target="_blank">GitHub</a></li>
+                    <li><a href="D:\Coding\KPs Portfolio\Code\pages\connect.html">Contact Form</a></li>
                 </ul>
             </div>
         </nav>
@@ -76,13 +35,171 @@
     <main>
         <section class="firstSec">
             <div class="leftSec">
-                Hi, My name is Krishna Prudhvi
-                <div>and I am a Software Engineer</div> 
+                Hi, My name is <span class="nameinSection">Krishna Prudhvi</span>
+                <div>and I am a </div>
+                <span id="element"></span>
             </div>
             <div class="rightSec">
-                <img src="D:\Coding\KPs Portfolio\Code\resources\rightSectionPic.png">
+                <img src="D:\Coding\KPs Portfolio\Code\resources\rightSectionPic2.png">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSec">
+            <h1>Work Experience</h1>
+            <div class="work-timeline">
+                <div class="work-text">
+                    <b>Company</b> : Tata Consultancy Services (TCS)<br>
+                    <b>Role</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp; : Java Developer<br>
+                    (Feb-2021 to May-2022)<br><br>
+                </div>
+                <div class="work-specifics">
+                    Worked on development and maintenance of several enterprise Java Web Applications developed by our
+                    team for the Manpower Group Ltd - USA
+                    <ul>
+                        <li id="work-desc">Worked on requirements from clients regarding the needs to be implemented as
+                            part of maintenance and updates</li>
+                        <li id="work-desc">Attended several collaboration meetings with various teams to discuss
+                            deployments and the impact of it on other applications</li>
+                    </ul>
+                </div>
+            </div>
+            <br><br>
+        </section>
+        <hr>
+        <section class="thirdSec">
+            <h1>Education</h1>
+            <div class="education-timeline">
+                <div class="education-checkpoint">
+                    <div class="education-text">
+                        Master of Science (MS)
+                    </div>
+                    <div class="course-specifics">
+                        Computer Science<br>
+                        George Mason University<br>
+                        (Jan-2023 to present)<br>
+                        CGPA: <span id="cgpas">4.0</span> <br>(upto 1st Semester)
+                    </div>
+                </div>
+                <div class="education-checkpoint">
+                    <div class="education-text">
+                        Bachelor of Technology
+                    </div>
+                    <div class="course-specifics">
+                        Computer Science & Engineering<br>
+                        R.V.R & J.C. College of Engineering<br>
+                        (June-2016 to Sep-2020)<br>
+                        CGPA: <span id=cgpas>8.91</span> / 10 <br>
+                    </div>
+                </div>
+                <div class="education-checkpoint">
+                    <div class="education-text">
+                        12th Grade
+                    </div>
+                    <div class="course-specifics">
+                        Narayana Junior College<br>
+                        (Apr-2014 to Mar-2016)<br>
+                        Score: <span id="cgpas">984</span> / 1000 <br>
+                    </div>
+                </div>
+                <div class="education-checkpoint">
+                    <div class="education-text">
+                        10th Grade
+                    </div>
+                    <div class="course-specifics">
+                        Narayana Concept School<br>
+                        (Apr-2013 to Mar-2014)<br>
+                        CGPA: <span id="cgpas">9.8</span> / 10 <br>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="fifthSection">
+            <h1>Skills</h1>
+            <div class="skills-line">
+                <div class="skillGridContainer">
+                    <div class="skillItem"><h3>Python :</h3></div>
+                    <div class="skillItem"><h3>SQL :</h3></div>
+                    <div class="skillItem">
+                        <div class="skillBar">
+                            <div class="skills python" title="9/10">9</div>
+                        </div>
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillBar">
+                            <div class="skills sql" title="9/10">9</div>
+                        </div>
+                    </div>
+                    <div class="skillItem"><h3>C :</h3></div>
+                    <div class="skillItem"><h3>Java :</h3></div>
+                    <div class="skillItem">
+                        <div class="skillBar">
+                            <div class="skills cLang" title="9/10">9</div>
+                        </div>
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillBar">
+                            <div class="skills java" title="8/10">8</div>
+                        </div>
+                    </div>
+                    <div class="skillItem"><h3>HTML :</h3></div>
+                    <div class="skillItem"><h3>CSS :</h3></div>
+                    <div class="skillItem">
+                        <div class="skillBar">
+                            <div class="skills html" title="8/10">8</div>
+                        </div>
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillBar">
+                            <div class="skills css" title="7/10">7</div>
+                        </div>
+                    </div>
+                    <div class="skillItem"><h3>C++ :</h3></div>
+                    <div class="skillItem"><h3>JS :</h3></div>
+                    <div class="skillItem">
+                        <div class="skillBar">
+                            <div class="skills cpp" title="7/10">7</div>
+                        </div>
+                    </div>
+                    <div class="skillItem">
+                        <div class="skillBar">
+                            <div class="skills js" title="7/10">7</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="fourthSection">
+            <div class="contactDetails">
+                <ul>
+                    <li>Mail ID&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;: krishna.chilukuri@yahoo.com</li>
+                    <li>Phone Number&emsp;&ensp;&nbsp;&nbsp;&nbsp;: +91 7382470754</li>
+                    <li>WhatsApp Number&nbsp;: +91 7382470754</li>
+                </ul>
+            </div>
+            <div class="credits">
+                <ul>
+                    <li><b>Credits:</b></li>
+                    <li>Typed Text&nbsp;: <a
+                            href="https://github.com/mattboldt/typed.js/">https://github.com/mattboldt/typed.js/</a>
+                    </li>
+                    <li>Image&emsp;&emsp;&nbsp;&nbsp;: <a
+                            href=https://www.cleanpng.com/png-programmer-computer-programming-laptop-professiona-1315943>https://www.cleanpng.com/png-programmer-computer-programming-laptop-professiona-1315943/</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="D:\Coding\KPs Portfolio\Code\logic\typing_text.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Java Developer', 'CS Grad Student at GMU.'],
+            typeSpeed: 50,
+        });
+    </script>
 </body>
+
 </html>
