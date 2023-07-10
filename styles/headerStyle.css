@@ -26,3 +26,17 @@ nav ul li a:hover{
     font-size: 2rem;
     justify-content: left;
 }
+
+@media screen and (max-width: 500px){
+        nav{
+            /* background-color: red; */
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            width:100%;            
+        }
+        .left{
+            font-size: 2rem;
+            justify-content: center;
+        }
+}

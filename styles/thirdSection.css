@@ -17,7 +17,7 @@
     justify-content: space-evenly;
 }
 
-.education-checkpoint {
+.education-checkpoint {/*Doubt*/
     height: 90px;
     width: 2px;
     background-color: white;
@@ -41,4 +41,39 @@
 #cgpas {
     font-size: 18px;
     color: rgb(165, 97, 221);
+}
+
+@media screen and (max-width:500px) {
+    .thirdSec{
+        height:80vh;
+    }
+    .education-timeline{
+        background: white;
+        width:3px;
+        height: 125vw;
+        margin: 20px 0;
+        display:grid;
+        grid-template-columns: auto;
+    }
+    .education-checkpoint {
+        height: 2px;
+        width: 10px;
+        background-color: white;
+        margin: 10px 0px;
+        padding: 0 10px;
+    }
+    .education-text{
+        position: relative;
+        top: 7px;
+        margin-left: 10px;
+        width: 261px;
+        font-size: 20px;
+    }
+    .course-specifics{
+        position: relative;
+        top: 7px;
+        margin-left: 10px;
+        width: 261px;
+        font-size: 10px;
+    }
 }

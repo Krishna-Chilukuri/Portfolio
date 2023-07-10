@@ -24,3 +24,14 @@
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width:500px){
+    .resumeButton{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .resumeButton button{
+        padding: 0 2rem;
+        margin: 0.5rem 1rem;
+    }
+}

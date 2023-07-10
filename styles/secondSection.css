@@ -30,3 +30,22 @@
     position: relative;
     margin: 5px 6rem;
 }
+
+@media screen and (max-width: 500px){
+    /* ul{
+        display: none;
+    } */
+    /* .secondSec{
+        height:75vh;
+    } */
+    .secondSec{
+        max-width: 85vw;
+        margin: auto;
+        height:70vh;
+    }
+    #work-desc{
+        position:  relative;
+        margin: 5px 7px;
+        font-size: small;
+    }
+}

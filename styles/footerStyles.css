@@ -21,3 +21,22 @@ footer{
 .contactDetails{
     font-size: 17px;
 }
+
+@media screen and (max-width:500px) {
+    footer{
+        height:40vh;
+    }
+    .fourthSection{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #spaces{
+        display: none;
+    }
+    li{
+        font-size: 15px;
+    }
+    .fourthSection ul{
+        padding: 10px 0;
+    }
+}

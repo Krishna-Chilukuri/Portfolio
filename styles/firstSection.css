@@ -25,3 +25,22 @@
     color:rgb(165, 97, 221);
     font-size: 2.85rem;
 }
+
+@media screen and (max-width: 500px){
+    .rightSec img{
+        display: none;
+    }
+    .firstSec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:12.4rem 5rem;
+        width:100%;
+    }
+    .firstSec > div{
+        width:100%;
+    }
+    .leftSec{
+        font-size: 2.5rem;
+    }
+}
