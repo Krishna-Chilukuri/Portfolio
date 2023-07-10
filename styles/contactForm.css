@@ -1,0 +1,78 @@
+.contactForm{
+    max-width: 85vw;
+    margin: auto;
+    height: 70vh;
+}
+
+.form{
+    display: flex;
+    justify-content: space-around;
+    margin:4rem 0;
+    font-size: 20px;
+}
+
+@media screen and (max-width:400px){
+    .contactForm{
+        margin: auto;
+        height:70vh;
+        max-width: 400px;
+    }
+    nav{
+        background-color: red;
+        font-size:10px;
+        width:100%
+    }
+    .form{
+        display:flex;
+        justify-content: center;
+        font-size: 10px;
+    }
+    input[type=text], select{
+        width:25%;
+        background-color: red;
+    }
+}
+
+
+input[type=text], select{
+    width:120%;
+    background-color: rgb(6, 6, 69);
+    color:rgb(253, 251, 255);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    display: inline-block;
+    border: 1px solid white;
+    /* border-radius: 5px; */
+    font-size: 20px;
+}
+
+.submitButton button{
+    width:120%;
+    background-color: rgb(6, 6, 69);
+    color:rgb(253, 251, 255);
+    padding: 1rem 1rem;
+    margin:0.5rem 1rem;
+    border: 1px solid white;
+    cursor:pointer;
+    font-size: 20px;
+    /* border-radius: 5px; */
+}
+
+.submitButton button:hover{
+    background-color: white;
+    color: black;
+}
+
+textarea{
+    background-color: rgb(6, 6, 69);
+    color:rgb(253, 251, 255);
+    width:124%;
+    height:80%;
+    border: 1px solid white;
+    margin:0.5rem 0;
+    /* border-radius: 5px; */
+    resize: none;
+    font-size: 20px;
+    padding:10px 10px;
+    scroll-behavior: smooth;
+}

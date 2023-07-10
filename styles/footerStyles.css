@@ -24,7 +24,28 @@ footer{
 
 @media screen and (max-width:500px) {
     footer{
+        width:142vw;
         height:40vh;
+    }
+    .fourthSection{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #spaces{
+        display: none;
+    }
+    li{
+        font-size: 15px;
+    }
+    .fourthSection ul{
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width:1000px){
+    footer{
+        width:142vw;
+        height:20vh;
     }
     .fourthSection{
         display: grid;
